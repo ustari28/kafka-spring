@@ -3,7 +3,7 @@ ______________________
 This example was created with Spring-boot, apache-kafka.
 We use docker from kafka image:
 ```
-docker run -p 2181:2181 -p 9092:9092 --env ADVERTISED_HOST=localhost --env ADVERTISED_PORT=9092 spotify/kafka
+docker run -p 2181:2181 -p 9092:9092 --env ADVERTISED_HOST=localhost --env ADVERTISED_PORT=9092 --name local-kafka spotify/kafka
 ```
 
 To enter into kafka instance:
